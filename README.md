@@ -4,7 +4,7 @@
 
 Este repositório contém o projeto de limpeza, padronização e análise visual de uma base de dados de vendas de supermercado, desenvolvido **100% no Microsoft Excel**.
 
-## 📌 Origem dos Dados
+## Origem dos Dados
 A base de dados utilizada neste projeto foi extraída do **Kaggle**: 
 [Supermart Grocery Sales - Retail Analytics Dataset](https://www.kaggle.com/datasets/mohamedharris/supermart-grocery-sales-retail-analytics-dataset). 
 O dataset original contém o histórico de transações de vendas de uma rede de supermercados no estado de Tamil Nadu, Índia.
