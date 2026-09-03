@@ -1,4 +1,4 @@
-<img width="576" height="288" alt="image" src="https://github.com/user-attachments/assets/7b97b542-2995-4976-b774-3f6d7af26402" />
+<img width="800" height="288" alt="image" src="https://github.com/user-attachments/assets/7b97b542-2995-4976-b774-3f6d7af26402" />
 
 # Projeto de Tratamento de Dados e Analytics no Excel
 
