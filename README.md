@@ -17,7 +17,7 @@ Para visualizar ou descarregar os arquivos oficiais deste projeto, aceda aos lin
 *   **Arquivo Original (Dados Brutos):** [`data/raw/base_original.xlsx`](https://github.com/srasouza/supermarket-analytics-excel/tree/a0594060252cfb6f93a8b198a51b82ab71611b8f/dados/raw) — *Contém os dados concentrados em uma única coluna, com cabeçalhos em inglês e formatação regional norte-americana.*
 *   **Arquivo Tratado (Base Final + Dashboard):** [`data/processed/base_tratada_final.xlsx`](https://github.com/srasouza/supermarket-analytics-excel/tree/a0594060252cfb6f93a8b198a51b82ab71611b8f/dados/raw) — *Contém a base limpa, traduzida, com novas métricas calculadas e a aba de relatórios com os gráficos.*
 
-*   ## Etapas do Tratamento e Padronização dos Dados
+## Etapas do Tratamento e Padronização dos Dados
 
 O tratamento dos dados foi realizado no Microsoft Excel, com o objetivo de organizar a estrutura da base, padronizar os nomes das colunas e adequar os formatos dos dados para posterior análise.
 
