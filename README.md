@@ -52,6 +52,14 @@ A coluna apresentava valores com ponto decimal (ex: 0.12, 0.18).
 2.  A coluna foi formatada como **Porcentagem** (ex: `0,12` → `12%`).
 
 ### 5. Tradução e Localização de Categorias e Regiões
+Antes de realizar a tradução da coluna Categoria, foi necessário identificar quais categorias estavam presentes na base.
+
+Para isso, foi utilizada temporariamente a coluna M, fora da estrutura principal dos dados. Nessa coluna foi aplicada a função ÚNICO, utilizando como matriz a coluna Categoria.
+
+A opção de exclusão de linhas e colunas vazias foi configurada como FALSO;FALSO, para `Retornar Linhas Exclusivas` e `Retornar cada item distinto` e assim obter a relação das categorias existentes na base sem alterar os dados originais.
+
+A partir desse levantamento, foram identificadas as categorias que precisavam ser traduzidas e padronizadas.
+
 Utilizando a ferramenta **Substituir** e o auxílio temporário da função `ÚNICO` para mapeamento, os dados foram traduzidos:
 *   **Regiões:**
 
@@ -62,7 +70,7 @@ Utilizando a ferramenta **Substituir** e o auxílio temporário da função `ÚN
 | West           | Oeste             |               3.203 |
 | East           | Leste             |               2.848 |
 
-*   **Categorias:**
+*   **Categorias:** 
 
 |  Categoria original | Categoria padronizada | Nº de substituições |
 | ------------------ | --------------------- | ------------------: |
@@ -74,7 +82,7 @@ Utilizando a ferramenta **Substituir** e o auxílio temporário da função `ÚN
 | Snacks             | Snacks                |                   — |
 | Eggs, Meat & Fish  | Ovos, Carnes e Peixes |               1.490 |
 
-*   **Subcategorias:** Os termos *Chocolates* e *Cookies* foram mantidos por ampla compreensão no mercado brasileiro.
+*   **Subcategorias:** Os termos *Chocolates* e *Cookies* foram mantidos por ampla compreensão no mercado brasileiro. O dataset possui 23 subcategorias vinculadas às suas respectivas categorias superiores e como no passo anterior, utilizou-se temporariamente a coluna M com a função **ÚNICO** configurada com os critérios `FALSO;FALSO` para mapear a lista exata de registros existentes.
 
 | Subcategoria original | Subcategoria padronizada | Nº de substituições |
 | :--- | :--- | :---: |
@@ -101,6 +109,8 @@ Utilizando a ferramenta **Substituir** e o auxílio temporário da função `ÚN
 | Spices | Especiarias | 447 |
 | Rice | Arroz | 330 |
 | Breads & Buns | Pães e Pãezinhos | 502 |
+
+Após verificar minuciosamente a lista gerada na coluna M e confirmar que 100% das subcategorias estavam devidamente traduzidas e padronizadas em português, a fórmula foi apagada.
 
 ### 6. Qualidade dos Dados (Duplicadas e Nulos)
 *   **Remover Duplicadas:** Nenhuma linha duplicada foi encontrada. Cada linha representa uma transação única.
