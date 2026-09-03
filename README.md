@@ -75,7 +75,7 @@ Utilizando a ferramenta **Substituir** e o auxílio temporário da função `ÚN
 | Eggs, Meat & Fish  | Ovos, Carnes e Peixes |               1.490 |
 
 *   **Subcategorias:** Os termos *Chocolates* e *Cookies* foram mantidos por ampla compreensão no mercado brasileiro.
-*   
+
 | Subcategoria original | Subcategoria padronizada | Nº de substituições |
 | :--- | :--- | :---: |
 | Masalas | Temperos | 463 |
